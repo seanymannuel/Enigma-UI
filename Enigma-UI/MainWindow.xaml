@@ -233,7 +233,7 @@
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"/>
 
-        <Label x:Name="e" 
+        <Label x:Name="ee" 
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="e"
@@ -485,7 +485,7 @@
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"/>
-        <Label x:Name="l" 
+        <Label x:Name="el" 
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="l"
@@ -557,7 +557,7 @@
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"/>
-        <Label x:Name="c" 
+        <Label x:Name="cc" 
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="c"
