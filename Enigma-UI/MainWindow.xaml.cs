@@ -63,10 +63,19 @@ namespace Enigma_UI
                 // Update your Shift Lock label text or appearance here
                 shiftlock.Content = capsLockEnabled ? "Caps Lock" : "Shift Lock";
                 shiftlock.Background = Brushes.Yellow;
+                if (capsLockEnabled)
+                {
+                    a.Content = "A";
+                    b.Content = "B";
+                    // Update other labels in a similar manner
+                }
+
                 return;
             }
 
-            if (uppercaseEnabled)
+
+
+            if (uppercaseEnabled || capsLockEnabled) // Check if either Caps Lock or Shift is enabled
             {
                 char character = KeyManager(e.Key);
                 character = char.ToUpper(character);
