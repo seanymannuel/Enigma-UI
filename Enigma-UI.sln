@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enigma-UI", "Enigma-UI\Enigma-UI.csproj", "{EDCDDE41-614D-4E6A-81E1-7EED2A1428EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDCDDE41-614D-4E6A-81E1-7EED2A1428EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDCDDE41-614D-4E6A-81E1-7EED2A1428EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDCDDE41-614D-4E6A-81E1-7EED2A1428EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDCDDE41-614D-4E6A-81E1-7EED2A1428EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0F051EB-FC0F-449A-8CB3-AD87CCCC6E87}
+	EndGlobalSection
+EndGlobal
