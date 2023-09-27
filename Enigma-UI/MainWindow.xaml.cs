@@ -185,9 +185,81 @@ namespace Enigma_UI
             if (input == Key.Space)
                 retVal = ' ';
             else if (capsLockEnabled || (shiftKeyPressed && !capsLockKeyPressed)) // Check if Caps Lock is enabled or Shift is pressed (but not Caps Lock)
-                retVal = char.ToUpper(input.ToString()[0]); // Convert to uppercase
+                switch (input)
+                {
+                    case Key.D1:
+                        retVal = '!';
+                        break;
+                    case Key.D2:
+                        retVal = '@';
+                        break;
+                    case Key.D3:
+                        retVal = '#';
+                        break;
+                    case Key.D4:
+                        retVal = '$';
+                        break;
+                    case Key.D5:
+                        retVal = '%';
+                        break;
+                    case Key.D6:
+                        retVal = '^';
+                        break;
+                    case Key.D7:
+                        retVal = '&';
+                        break;
+                    case Key.D8:
+                        retVal = '*';
+                        break;
+                    case Key.D9:
+                        retVal = '(';
+                        break;
+                    case Key.D0:
+                        retVal = ')';
+                        break;
+                    // Add more special characters as needed
+                    default:
+                        retVal = char.ToUpper(input.ToString()[0]); // Convert to uppercase
+                        break;
+                }
             else
-                retVal = char.ToLower(input.ToString()[0]); // Convert to lowercase
+                switch (input)
+                {
+                    case Key.D1:
+                        retVal = '1';
+                        break;
+                    case Key.D2:
+                        retVal = '2';
+                        break;
+                    case Key.D3:
+                        retVal = '3';
+                        break;
+                    case Key.D4:
+                        retVal = '4';
+                        break;
+                    case Key.D5:
+                        retVal = '5';
+                        break;
+                    case Key.D6:
+                        retVal = '6';
+                        break;
+                    case Key.D7:
+                        retVal = '7';
+                        break;
+                    case Key.D8:
+                        retVal = '8';
+                        break;
+                    case Key.D9:
+                        retVal = '9';
+                        break;
+                    case Key.D0:
+                        retVal = '0';
+                        break;
+                    // Add more special characters as needed
+                    default:
+                        retVal = char.ToLower(input.ToString()[0]); // Convert to lowercase
+                        break;
+                }
 
             return retVal;
         }
