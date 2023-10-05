@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:Enigma_UI"
         mc:Ignorable="d"
         Title="Enigma Input" 
-        Height="418" 
-        Width="701">
+        Height="773" 
+        Width="928">
     <Grid>
 
         <TextBlock
@@ -19,11 +19,17 @@
             />
 
         <Label x:Name="output"
+               BorderBrush="Black"
+               BorderThickness="1"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Margin="18,52,0,0" 
             Height="130" 
-            Width="643"/>
+            Width="864"/>
+
+        <!--<Border BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="163,244,0,0">
+            <Label Content="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>-->
 
 
         <Label x:Name="one" 
@@ -31,9 +37,9 @@
             VerticalAlignment="Top"
             Content="1"
             FontSize="15"
-            Margin="89,204,0,0"          
-            Height="36"
-            Width="36"
+            Margin="162,476,0,0"          
+            Height="44"
+            Width="44"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -44,9 +50,9 @@
             VerticalAlignment="Top"
             Content="2"
             FontSize="15"
-            Margin="130,204,0,0"          
-            Height="36"
-            Width="36"
+            Margin="211,476,0,0"          
+            Height="44"
+            Width="44"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -57,9 +63,9 @@
             VerticalAlignment="Top"
             Content="3"
             FontSize="15"
-            Margin="171,204,0,0"          
-            Height="36"
-            Width="36"
+            Margin="261,476,0,0"          
+            Height="44"
+            Width="44"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -70,9 +76,9 @@
             VerticalAlignment="Top"
             Content="4"
             FontSize="15"
-            Margin="212,204,0,0"          
-            Height="36"
-            Width="36"
+            Margin="311,476,0,0"          
+            Height="44"
+            Width="42"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -83,9 +89,9 @@
             VerticalAlignment="Top"
             Content="5"
             FontSize="15"
-            Margin="253,204,0,0"          
-            Height="36"
-            Width="36"
+            Margin="359,476,0,0"          
+            Height="44"
+            Width="45"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -96,9 +102,9 @@
             VerticalAlignment="Top"
             Content="6"
             FontSize="15"
-            Margin="294,204,0,0"          
-            Height="36"
-            Width="36"
+            Margin="409,476,0,0"          
+            Height="44"
+            Width="44"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -109,9 +115,9 @@
             VerticalAlignment="Top"
             Content="7"
             FontSize="15"
-            Margin="335,204,0,0"          
-            Height="36"
-            Width="36"
+            Margin="460,476,0,0"          
+            Height="44"
+            Width="42"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -122,9 +128,9 @@
             VerticalAlignment="Top"
             Content="8"
             FontSize="15"
-            Margin="376,204,0,0"          
-            Height="36"
-            Width="36"
+            Margin="508,476,0,0"          
+            Height="44"
+            Width="45"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -135,9 +141,9 @@
             VerticalAlignment="Top"
             Content="9"
             FontSize="15"
-            Margin="417,204,0,0"          
-            Height="36"
-            Width="36"
+            Margin="558,476,0,0"          
+            Height="44"
+            Width="43"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -148,9 +154,9 @@
             VerticalAlignment="Top"
             Content="0"
             FontSize="15"
-            Margin="458,204,0,0"          
-            Height="36"
-            Width="36"
+            Margin="607,476,0,0"          
+            Height="44"
+            Width="45"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -161,9 +167,9 @@
             VerticalAlignment="Top"
             Content="Return"
             FontSize="15"
-            Margin="604,245,0,0"          
-            Height="77"
-            Width="57"
+            Margin="784,526,0,0"          
+            Height="93"
+            Width="67"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -174,9 +180,9 @@
             VerticalAlignment="Top"
             Content="="
             FontSize="15"
-            Margin="540,204,0,0"          
-            Height="36"
-            Width="36"
+            Margin="708,476,0,0"          
+            Height="44"
+            Width="43"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -187,9 +193,9 @@
             VerticalAlignment="Top"
             Content="q"
             FontSize="15"
-            Margin="112,245,0,0"          
-            Height="36"
-            Width="36"
+            Margin="191,526,0,0"          
+            Height="44"
+            Width="42"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -200,9 +206,9 @@
             VerticalAlignment="Top"
             Content="Tab"
             FontSize="15"
-            Margin="18,245,0,0"          
-            Height="36"
-            Width="89"
+            Margin="76,526,0,0"          
+            Height="44"
+            Width="108"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -213,9 +219,9 @@
             VerticalAlignment="Top"
             Content="Shift"
             FontSize="15"
-            Margin="18,327,0,0"          
-            Height="36"
-            Width="97"
+            Margin="76,626,0,0"          
+            Height="43"
+            Width="118"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -226,9 +232,9 @@
             VerticalAlignment="Top"
             Content="w"
             FontSize="15"
-            Margin="153,245,0,0"          
-            Height="36"
-            Width="36"
+            Margin="238,526,0,0"          
+            Height="44"
+            Width="45"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -239,9 +245,9 @@
             VerticalAlignment="Top"
             Content="e"
             FontSize="15"
-            Margin="194,245,0,0"          
-            Height="36"
-            Width="36"
+            Margin="289,526,0,0"          
+            Height="44"
+            Width="43"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -252,9 +258,9 @@
             VerticalAlignment="Top"
             Content="r"
             FontSize="15"
-            Margin="235,245,0,0"          
-            Height="36"
-            Width="36"
+            Margin="339,526,0,0"          
+            Height="44"
+            Width="42"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -265,9 +271,9 @@
             VerticalAlignment="Top"
             Content="t"
             FontSize="15"
-            Margin="276,245,0,0"          
-            Height="36"
-            Width="36"
+            Margin="387,526,0,0"          
+            Height="44"
+            Width="45"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -278,9 +284,9 @@
             VerticalAlignment="Top"
             Content="y"
             FontSize="15"
-            Margin="317,245,0,0"          
-            Height="36"
-            Width="36"
+            Margin="439,526,0,0"          
+            Height="44"
+            Width="42"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -291,9 +297,9 @@
             VerticalAlignment="Top"
             Content="u"
             FontSize="15"
-            Margin="358,245,0,0"          
-            Height="36"
-            Width="36"
+            Margin="488,526,0,0"          
+            Height="44"
+            Width="42"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -304,9 +310,9 @@
             VerticalAlignment="Top"
             Content="i"
             FontSize="15"
-            Margin="399,245,0,0"          
-            Height="36"
-            Width="36"
+            Margin="536,526,0,0"          
+            Height="44"
+            Width="45"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -317,9 +323,9 @@
             VerticalAlignment="Top"
             Content="o"
             FontSize="15"
-            Margin="440,245,0,0"          
-            Height="36"
-            Width="36"
+            Margin="586,526,0,0"          
+            Height="44"
+            Width="43"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -330,9 +336,9 @@
             VerticalAlignment="Top"
             Content="p"
             FontSize="15"
-            Margin="481,245,0,0"          
-            Height="36"
-            Width="36"
+            Margin="636,526,0,0"          
+            Height="44"
+            Width="44"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -343,9 +349,9 @@
             VerticalAlignment="Top"
             Content="["
             FontSize="15"
-            Margin="522,245,0,0"          
-            Height="36"
-            Width="36"
+            Margin="685,526,0,0"          
+            Height="44"
+            Width="43"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -356,9 +362,9 @@
             VerticalAlignment="Top"
             Content="]"
             FontSize="15"
-            Margin="563,245,0,0"          
-            Height="36"
-            Width="36"
+            Margin="736,526,0,0"          
+            Height="44"
+            Width="42"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -369,9 +375,9 @@
             VerticalAlignment="Top"
             Content="\"
             FontSize="15"
-            Margin="563,286,0,0"          
-            Height="36"
-            Width="36"
+            Margin="736,576,0,0"          
+            Height="43"
+            Width="42"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -382,9 +388,9 @@
         VerticalAlignment="Top"
         Content="Back"
         FontSize="15"
-        Margin="581,204,0,0"          
-        Height="36"
-        Width="80"
+        Margin="756,476,0,0"          
+        Height="44"
+        Width="95"
         BorderBrush="Black"
         BorderThickness="1" 
         HorizontalContentAlignment="Center"
@@ -395,9 +401,9 @@
             VerticalAlignment="Top"
             Content="a"
             FontSize="15"
-            Margin="112,286,0,0"          
-            Height="36"
-            Width="36"
+            Margin="191,576,0,0"          
+            Height="43"
+            Width="42"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -407,9 +413,9 @@
             VerticalAlignment="Top"
             Content="s"
             FontSize="15"
-            Margin="153,286,0,0"          
-            Height="36"
-            Width="36"
+            Margin="238,576,0,0"          
+            Height="43"
+            Width="45"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -419,9 +425,9 @@
             VerticalAlignment="Top"
             Content="d"
             FontSize="15"
-            Margin="194,286,0,0"          
-            Height="36"
-            Width="36"
+            Margin="289,576,0,0"          
+            Height="43"
+            Width="43"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -431,9 +437,9 @@
             VerticalAlignment="Top"
             Content="f"
             FontSize="15"
-            Margin="235,286,0,0"          
-            Height="36"
-            Width="36"
+            Margin="339,576,0,0"          
+            Height="43"
+            Width="42"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -443,9 +449,9 @@
             VerticalAlignment="Top"
             Content="g"
             FontSize="15"
-            Margin="276,286,0,0"          
-            Height="36"
-            Width="36"
+            Margin="387,576,0,0"          
+            Height="43"
+            Width="45"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -455,9 +461,9 @@
             VerticalAlignment="Top"
             Content="h"
             FontSize="15"
-            Margin="317,286,0,0"          
-            Height="36"
-            Width="36"
+            Margin="439,576,0,0"          
+            Height="43"
+            Width="42"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -467,9 +473,9 @@
             VerticalAlignment="Top"
             Content="j"
             FontSize="15"
-            Margin="358,286,0,0"          
-            Height="36"
-            Width="36"
+            Margin="488,576,0,0"          
+            Height="43"
+            Width="42"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -479,9 +485,9 @@
             VerticalAlignment="Top"
             Content="k"
             FontSize="15"
-            Margin="399,286,0,0"          
-            Height="36"
-            Width="36"
+            Margin="536,576,0,0"          
+            Height="43"
+            Width="45"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -491,9 +497,9 @@
             VerticalAlignment="Top"
             Content="l"
             FontSize="15"
-            Margin="440,286,0,0"          
-            Height="36"
-            Width="36"
+            Margin="586,576,0,0"          
+            Height="43"
+            Width="43"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -503,9 +509,9 @@
             VerticalAlignment="Top"
             Content=";"
             FontSize="15"
-            Margin="481,286,0,0"          
-            Height="36"
-            Width="36"
+            Margin="636,576,0,0"          
+            Height="43"
+            Width="44"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -515,9 +521,9 @@
             VerticalAlignment="Top"
             Content="'"
             FontSize="15"
-            Margin="522,286,0,0"          
-            Height="36"
-            Width="36"
+            Margin="685,576,0,0"          
+            Height="43"
+            Width="43"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -527,9 +533,9 @@
             VerticalAlignment="Top"
             Content="Shift lock"
             FontSize="15"
-            Margin="18,286,0,0"          
-            Height="36"
-            Width="89"
+            Margin="76,576,0,0"          
+            Height="43"
+            Width="108"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -539,9 +545,9 @@
             VerticalAlignment="Top"
             Content="z"
             FontSize="15"
-            Margin="123,327,0,0"          
-            Height="36"
-            Width="36"
+            Margin="203,626,0,0"          
+            Height="43"
+            Width="45"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -551,9 +557,9 @@
             VerticalAlignment="Top"
             Content="x"
             FontSize="15"
-            Margin="164,327,0,0"          
-            Height="36"
-            Width="36"
+            Margin="253,626,0,0"          
+            Height="43"
+            Width="42"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -563,9 +569,9 @@
             VerticalAlignment="Top"
             Content="c"
             FontSize="15"
-            Margin="205,327,0,0"          
-            Height="36"
-            Width="36"
+            Margin="301,626,0,0"          
+            Height="43"
+            Width="45"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -575,9 +581,9 @@
             VerticalAlignment="Top"
             Content="v"
             FontSize="15"
-            Margin="246,327,0,0"          
-            Height="36"
-            Width="36"
+            Margin="351,626,0,0"          
+            Height="43"
+            Width="43"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -587,9 +593,9 @@
             VerticalAlignment="Top"
             Content="b"
             FontSize="15"
-            Margin="287,327,0,0"          
-            Height="36"
-            Width="36"
+            Margin="402,626,0,0"          
+            Height="43"
+            Width="43"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -599,9 +605,9 @@
             VerticalAlignment="Top"
             Content="n"
             FontSize="15"
-            Margin="461,327,0,0"          
-            Height="36"
-            Width="36"
+            Margin="612,626,0,0"          
+            Height="43"
+            Width="43"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -611,9 +617,9 @@
             VerticalAlignment="Top"
             Content="m"
             FontSize="15"
-            Margin="502,327,0,0"          
-            Height="36"
-            Width="36"
+            Margin="661,626,0,0"          
+            Height="43"
+            Width="45"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -623,9 +629,9 @@
             VerticalAlignment="Top"
             Content=","
             FontSize="15"
-            Margin="543,327,0,0"          
-            Height="36"
-            Width="36"
+            Margin="711,626,0,0"          
+            Height="43"
+            Width="42"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -635,9 +641,9 @@
             VerticalAlignment="Top"
             Content="."
             FontSize="15"
-            Margin="584,327,0,0"          
-            Height="36"
-            Width="36"
+            Margin="759,626,0,0"          
+            Height="43"
+            Width="45"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -647,9 +653,9 @@
             VerticalAlignment="Top"
             Content="/"
             FontSize="15"
-            Margin="625,327,0,0"          
-            Height="36"
-            Width="36"
+            Margin="809,626,0,0"          
+            Height="43"
+            Width="42"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -659,9 +665,9 @@
             VerticalAlignment="Top"
             Content="Spacebar"
             FontSize="15"
-            Margin="328,327,0,0"          
-            Height="36"
-            Width="128"
+            Margin="450,626,0,0"          
+            Height="43"
+            Width="154"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
@@ -671,12 +677,168 @@
             VerticalAlignment="Top"
             Content="-"
             FontSize="15"
-            Margin="499,204,0,0"          
-            Height="36"
-            Width="36"
+            Margin="657,476,0,0"          
+            Height="44"
+            Width="44"
             BorderBrush="Black"
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"/>
+        <Border x:Name="c1" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="163,244,0,0">
+            <Label x:Name="c_1" Content="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="c2" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="212,244,0,0">
+            <Label x:Name="c_2" Content="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="c3" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="262,244,0,0">
+            <Label x:Name="c_3" Content="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="c4" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="311,244,0,0">
+            <Label x:Name="c_4" Content="4" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="c5" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="361,244,0,0">
+            <Label x:Name="c_5" Content="5" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="c6" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="410,244,0,0">
+            <Label x:Name="c_6" Content="6" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="c7" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="459,244,0,0">
+            <Label x:Name="c_7" Content="7" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="c8" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="510,244,0,0">
+            <Label x:Name="c_8" Content="8" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="c9" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="558,244,0,0">
+            <Label x:Name="c_9" Content="9" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="c0" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="608,244,0,0">
+            <Label x:Name="c_0" Content="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cMinus" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="657,244,0,0">
+            <Label x:Name="c_Minus" Content="-" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cEquals" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="708,244,0,0">
+            <Label x:Name="c_Equals" Content="=" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cBack" BorderBrush="Black" BorderThickness="1"  Width="101" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="761,244,0,0">
+            <Label x:Name="c_Back" Content="Back" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cTab" BorderBrush="Black" BorderThickness="1"  Width="108" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="77,293,0,0">
+            <Label Content="Tab" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cQ" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="190,294,0,0">
+            <Label Content="q" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cE" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="289,293,0,0">
+            <Label Content="e" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cR" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="338,293,0,0">
+            <Label Content="r" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cT" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="388,293,0,0">
+            <Label Content="t" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cY" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="437,293,0,0">
+            <Label Content="y" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cU" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="486,293,0,0">
+            <Label Content="u" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cI" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="537,293,0,0">
+            <Label Content="i" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cO" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="585,293,0,0">
+            <Label Content="o" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cP" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="635,293,0,0">
+            <Label Content="p" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cOpen" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="684,293,0,0">
+            <Label Content="[" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cClose" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="735,293,0,0">
+            <Label Content="]" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cEnter" BorderBrush="Black" BorderThickness="1"  Width="78" Height="92" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="784,291,0,0">
+            <Label x:Name="c_Return" Content="Return" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cShiftLock" BorderBrush="Black" BorderThickness="1"  Width="108" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="78,342,0,0">
+            <Label x:Name="cCapsLock" Content="Shift Lock" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cA" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="191,343,0,0">
+            <Label Content="a" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cS" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="240,343,0,0">
+            <Label Content="s" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cD" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="289,343,0,0">
+            <Label Content="d" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cF" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="339,343,0,0">
+            <Label Content="f" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cG" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="388,343,0,0">
+            <Label Content="g" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cH" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="437,343,0,0">
+            <Label Content="h" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cJ" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="488,343,0,0">
+            <Label Content="j" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cK" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="536,343,0,0">
+            <Label Content="k" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cL" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="586,343,0,0">
+            <Label Content="l" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cSemicolon" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="635,343,0,0">
+            <Label Content=";" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cQuotation" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="686,343,0,0">
+            <Label Content="'" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cShift" BorderBrush="Black" BorderThickness="1"  Width="108" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="77,391,0,0">
+            <Label Content="Shift" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cZ" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="190,392,0,0">
+            <Label Content="z" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cX" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="239,392,0,0">
+            <Label Content="x" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cC" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="288,392,0,0">
+            <Label Content="c" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cV" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="338,392,0,0">
+            <Label Content="v" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cB" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="387,392,0,0">
+            <Label Content="b" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cSpace" BorderBrush="Black" BorderThickness="1"  Width="181" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="436,392,0,0">
+            <Label Content="Spacebar" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cN" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="622,392,0,0">
+            <Label Content="n" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cM" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="671,391,0,0">
+            <Label Content="m" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cComa" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="720,391,0,0">
+            <Label Content="," HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cDot" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="769,391,0,0">
+            <Label Content="." HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cSlash" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="818,391,0,0">
+            <Label Content="/" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cW" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="240,294,0,0">
+            <Label Content="w" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
+        <Border x:Name="cBackSlash" BorderBrush="Black" BorderThickness="1"  Width="44" Height="44" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="735,343,0,0">
+            <Label Content="\" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15"/>
+        </Border>
     </Grid>
 </Window>

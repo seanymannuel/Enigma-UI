@@ -51,6 +51,7 @@ namespace Enigma_UI
                 shiftKeyPressed = true; 
                 uppercaseEnabled = true; // Enable uppercase mode when Shift is pressed
                 shift.Background = Brushes.Yellow; // Change UI element appearance
+                cShift.Background = Brushes.Red;
                 return;
             }
 
@@ -60,7 +61,9 @@ namespace Enigma_UI
                 capsLockKeyPressed = true;
                 capsLockEnabled = !capsLockEnabled; // Toggle Caps Lock state              
                 shiftlock.Content = capsLockEnabled ? "Caps Lock" : "Shift Lock";  // Update your Shift Lock label text or appearance here
+                cCapsLock.Content = capsLockEnabled ? "Caps Lock" : "Shift Lock";
                 shiftlock.Background = Brushes.Yellow;
+                cShiftLock.Background = Brushes.Red;
                 if (capsLockEnabled)
                 {
                     // Replace letters with symbols
@@ -178,183 +181,233 @@ namespace Enigma_UI
             {
                 char character = KeyManager(e.Key);
                 character = char.ToUpper(character);
-                // Append the uppercase character to your output or handle it as needed.
-                switch (e.Key) 
+                // Append the uppercase character to your output or handle it as needed.                     
+                    switch (e.Key)
                 {
                     // code to change background color of the label when it is being clicked
                     case Key.A:
                         a.Background = Brushes.Yellow;
+                        cA.Background = Brushes.Red;
                         break;
                     case Key.B:
                         b.Background = Brushes.Yellow;
+                        cB.Background = Brushes.Red;
                         break;
                     case Key.C:
                         cc.Background = Brushes.Yellow;
+                        cC.Background = Brushes.Red;
                         break;
                     case Key.D:
                         d.Background = Brushes.Yellow;
+                        cD.Background = Brushes.Red;
                         break;
                     case Key.E:
                         ee.Background = Brushes.Yellow;
+                        cE.Background = Brushes.Red;
                         break;
                     case Key.F:
                         f.Background = Brushes.Yellow;
+                        cF.Background = Brushes.Red;
                         break;
                     case Key.G:
                         g.Background = Brushes.Yellow;
+                        cG.Background = Brushes.Red;
                         break;
                     case Key.H:
                         h.Background = Brushes.Yellow;
+                        cH.Background = Brushes.Red;
                         break;
                     case Key.I:
                         i.Background = Brushes.Yellow;
+                        cI.Background = Brushes.Red;
                         break;
                     case Key.J:
                         j.Background = Brushes.Yellow;
+                        cJ.Background = Brushes.Red;
                         break;
                     case Key.K:
                         k.Background = Brushes.Yellow;
+                        cK.Background = Brushes.Red;
                         break;
                     case Key.L:
                         el.Background = Brushes.Yellow;
+                        cL.Background = Brushes.Red;
                         break;
                     case Key.M:
                         m.Background = Brushes.Yellow;
+                        cM.Background = Brushes.Red;
                         break;
                     case Key.N:
                         n.Background = Brushes.Yellow;
+                        cN.Background = Brushes.Red;
                         break;
                     case Key.O:
                         o.Background = Brushes.Yellow;
+                        cO.Background = Brushes.Red;
                         break;
                     case Key.P:
                         p.Background = Brushes.Yellow;
+                        cP.Background = Brushes.Red;
                         break;
                     case Key.Q:
                         q.Background = Brushes.Yellow;
+                        cQ.Background = Brushes.Red;
                         break;
                     case Key.R:
                         r.Background = Brushes.Yellow;
+                        cR.Background = Brushes.Red;
                         break;
                     case Key.S:
                         s.Background = Brushes.Yellow;
+                        cS.Background = Brushes.Red;
                         break;
                     case Key.T:
                         t.Background = Brushes.Yellow;
+                        cT.Background = Brushes.Red;
                         break;
                     case Key.U:
                         u.Background = Brushes.Yellow;
+                        cU.Background = Brushes.Red;
                         break;
                     case Key.V:
                         v.Background = Brushes.Yellow;
+                        cV.Background = Brushes.Red;
                         break;
                     case Key.W:
                         w.Background = Brushes.Yellow;
+                        cW.Background = Brushes.Red;
                         break;
                     case Key.X:
                         x.Background = Brushes.Yellow;
+                        cX.Background = Brushes.Red;
                         break;
                     case Key.Y:
                         y.Background = Brushes.Yellow;
+                        cY.Background = Brushes.Red;
                         break;
                     case Key.Z:
                         z.Background = Brushes.Yellow;
+                        cZ.Background = Brushes.Red;
                         break;
                     // OTHER KEYPAD
                     case Key.Space:
                         spacebar.Background = Brushes.Yellow;
+                        cSpace.Background = Brushes.Red;
                         break;
 
                     case Key.Enter:
                         _return.Background = Brushes.Yellow;
-                        break;
-
-                    case Key.Tab:
-                        tab.Background = Brushes.Yellow;
+                        cEnter.Background = Brushes.Red;
                         break;
 
                     case Key.Back:
                         back.Background = Brushes.Yellow;
+                        cBack.Background = Brushes.Red;
+                        break;
+
+                    case Key.Tab:
+                        tab.Background = Brushes.Yellow;
+                        cTab.Background = Brushes.Red;
                         break;
 
                     case Key.OemComma:
                         coma.Background = Brushes.Yellow;
+                        cComa.Background = Brushes.Red;
                         break;
 
                     case Key.OemPeriod:
                         dot.Background = Brushes.Yellow;
+                        cDot.Background = Brushes.Red;
                         break;
 
                     case Key.OemSemicolon:
                         semicolon.Background = Brushes.Yellow;
+                        cSemicolon.Background = Brushes.Red;
                         break;
 
                     case Key.OemQuotes:
                         quotation.Background = Brushes.Yellow;
+                        cQuotation.Background = Brushes.Red;
                         break;
 
                     case Key.OemQuestion:
                         slash.Background = Brushes.Yellow;
+                        cSlash.Background = Brushes.Red;
                         break;
 
                     case Key.OemPipe:
                         b_slash.Background = Brushes.Yellow;
+                        cBackSlash.Background = Brushes.Red;
                         break;
 
                     case Key.OemOpenBrackets:
                         l_bracket.Background = Brushes.Yellow;
+                        cOpen.Background = Brushes.Red;
                         break;
 
                     case Key.OemCloseBrackets:
                         r_bracket.Background = Brushes.Yellow;
+                        cClose.Background = Brushes.Red;
                         break;
 
                     case Key.OemPlus:
                         equal.Background = Brushes.Yellow;
+                        cEquals.Background = Brushes.Red;
                         break;
 
                     case Key.OemMinus:
                         minus.Background = Brushes.Yellow;
+                        cMinus.Background = Brushes.Red;
                         break;
 
                     case Key.D1:
                         one.Background = Brushes.Yellow;
+                        c1.Background = Brushes.Red;
                         break;
 
                     case Key.D2:
                         two.Background = Brushes.Yellow;
+                        c2.Background = Brushes.Red;
                         break;
 
                     case Key.D3:
-                        three.Background = Brushes.Yellow;   
+                        three.Background = Brushes.Yellow;
+                        c3.Background = Brushes.Red;
                         break;
 
                     case Key.D4:
                         four.Background = Brushes.Yellow;
+                        c4.Background = Brushes.Red;
                         break;
 
                     case Key.D5:
                         five.Background = Brushes.Yellow;
+                        c5.Background = Brushes.Red;
                         break;
 
                     case Key.D6:
                         six.Background = Brushes.Yellow;
+                        c6.Background = Brushes.Red;
                         break;
 
                     case Key.D7:
                         seven.Background = Brushes.Yellow;
+                        c7.Background = Brushes.Red;
                         break;
 
                     case Key.D8:
                         eight.Background = Brushes.Yellow;
+                        c8.Background = Brushes.Red;
                         break;
 
                     case Key.D9:
                         nine.Background = Brushes.Yellow;
+                        c9.Background = Brushes.Red;
                         break;
 
                     case Key.D0:
-                        zero.Background = Brushes.Yellow;
+                        zero.Background = Brushes.Red;
+                        c0.Background = Brushes.Red;
                         break;
                 }          
         }
@@ -366,177 +419,227 @@ namespace Enigma_UI
                 {
                     case Key.A:
                         a.Background = Brushes.Yellow;
+                        cA.Background = Brushes.Red;
                         break;
                     case Key.B:
                         b.Background = Brushes.Yellow;
+                        cB.Background = Brushes.Red;
                         break;
                     case Key.C:
                         cc.Background = Brushes.Yellow;
+                        cC.Background = Brushes.Red;
                         break;
                     case Key.D:
                         d.Background = Brushes.Yellow;
+                        cD.Background = Brushes.Red;
                         break;
                     case Key.E:
                         ee.Background = Brushes.Yellow;
+                        cE.Background = Brushes.Red;
                         break;
                     case Key.F:
                         f.Background = Brushes.Yellow;
+                        cF.Background = Brushes.Red;
                         break;
                     case Key.G:
                         g.Background = Brushes.Yellow;
+                        cG.Background = Brushes.Red;
                         break;
                     case Key.H:
                         h.Background = Brushes.Yellow;
+                        cH.Background = Brushes.Red;
                         break;
                     case Key.I:
                         i.Background = Brushes.Yellow;
+                        cI.Background = Brushes.Red;
                         break;
                     case Key.J:
                         j.Background = Brushes.Yellow;
+                        cJ.Background = Brushes.Red;
                         break;
                     case Key.K:
                         k.Background = Brushes.Yellow;
+                        cK.Background = Brushes.Red;
                         break;
                     case Key.L:
                         el.Background = Brushes.Yellow;
+                        cL.Background = Brushes.Red;
                         break;
                     case Key.M:
                         m.Background = Brushes.Yellow;
+                        cM.Background = Brushes.Red;
                         break;
                     case Key.N:
                         n.Background = Brushes.Yellow;
+                        cN.Background = Brushes.Red;
                         break;
                     case Key.O:
                         o.Background = Brushes.Yellow;
+                        cO.Background = Brushes.Red;
                         break;
                     case Key.P:
                         p.Background = Brushes.Yellow;
+                        cP.Background = Brushes.Red;
                         break;
                     case Key.Q:
                         q.Background = Brushes.Yellow;
+                        cQ.Background = Brushes.Red;
                         break;
                     case Key.R:
                         r.Background = Brushes.Yellow;
+                        cR.Background = Brushes.Red;
                         break;
                     case Key.S:
                         s.Background = Brushes.Yellow;
+                        cS.Background = Brushes.Red;
                         break;
                     case Key.T:
                         t.Background = Brushes.Yellow;
+                        cT.Background = Brushes.Red;
                         break;
                     case Key.U:
                         u.Background = Brushes.Yellow;
+                        cU.Background = Brushes.Red;
                         break;
                     case Key.V:
                         v.Background = Brushes.Yellow;
+                        cV.Background = Brushes.Red;
                         break;
                     case Key.W:
                         w.Background = Brushes.Yellow;
+                        cW.Background = Brushes.Red;
                         break;
                     case Key.X:
                         x.Background = Brushes.Yellow;
+                        cX.Background = Brushes.Red;
                         break;
                     case Key.Y:
                         y.Background = Brushes.Yellow;
+                        cY.Background = Brushes.Red;
                         break;
                     case Key.Z:
                         z.Background = Brushes.Yellow;
+                        cZ.Background = Brushes.Red;
                         break;
                         // OTHER KEYPAD
                     case Key.Space:
                         spacebar.Background = Brushes.Yellow;
+                        cSpace.Background = Brushes.Red;
                         break;
 
                     case Key.Enter:
                         _return.Background = Brushes.Yellow;
+                        cEnter.Background = Brushes.Red;
                         break;
 
                     case Key.Back:
                         back.Background = Brushes.Yellow;
+                        cBack.Background = Brushes.Red;
                         break;
 
                     case Key.Tab:
                         tab.Background = Brushes.Yellow;
+                        cTab.Background = Brushes.Red;
                         break;
 
                     case Key.OemComma:
                         coma.Background = Brushes.Yellow;
+                        cComa.Background = Brushes.Red;
                         break;
 
                     case Key.OemPeriod:
                         dot.Background = Brushes.Yellow;
+                        cDot.Background = Brushes.Red;
                         break;
 
                     case Key.OemSemicolon:
                         semicolon.Background = Brushes.Yellow;
+                        cSemicolon.Background = Brushes.Red;
                         break;
 
                     case Key.OemQuotes:
                         quotation.Background = Brushes.Yellow;
+                        cQuotation.Background = Brushes.Red;
                         break;
 
                     case Key.OemQuestion:
                         slash.Background = Brushes.Yellow;
+                        cSlash.Background = Brushes.Red;
                         break;
 
                     case Key.OemPipe:
                         b_slash.Background = Brushes.Yellow;
+                        cBackSlash.Background = Brushes.Red;
                         break;
 
                     case Key.OemOpenBrackets:
                         l_bracket.Background = Brushes.Yellow;
+                        cOpen.Background = Brushes.Red;
                         break;
 
                     case Key.OemCloseBrackets:
                         r_bracket.Background = Brushes.Yellow;
+                        cClose.Background = Brushes.Red;
                         break;
 
                     case Key.OemPlus:
                         equal.Background = Brushes.Yellow;
+                        cEquals.Background = Brushes.Red;
                         break;
 
                     case Key.OemMinus:
                         minus.Background = Brushes.Yellow;
+                        cMinus.Background = Brushes.Red;
                         break;
 
                     case Key.D1:
                         one.Background = Brushes.Yellow;
+                        c1.Background = Brushes.Red;
                         break;
 
                     case Key.D2:
                         two.Background = Brushes.Yellow;
+                        c2.Background = Brushes.Red;
                         break;
 
                     case Key.D3:
                         three.Background = Brushes.Yellow;
+                        c3.Background = Brushes.Red;
                         break;
 
                     case Key.D4:
                         four.Background = Brushes.Yellow;
+                        c4.Background = Brushes.Red;
                         break;
 
                     case Key.D5:
                         five.Background = Brushes.Yellow;
+                        c5.Background = Brushes.Red;
                         break;
 
                     case Key.D6:
                         six.Background = Brushes.Yellow;
+                        c6.Background = Brushes.Red;
                         break;
 
                     case Key.D7:
                         seven.Background = Brushes.Yellow;
+                        c7.Background = Brushes.Red;
                         break;
 
                     case Key.D8:
                         eight.Background = Brushes.Yellow;
+                        c8.Background = Brushes.Red;
                         break;
 
                     case Key.D9:
                         nine.Background = Brushes.Yellow;
+                        c9.Background = Brushes.Red;
                         break;
 
                     case Key.D0:
-                        zero.Background = Brushes.Yellow;
+                        zero.Background = Brushes.Red;
+                        c0.Background = Brushes.Red;
                         break;
                 }
             }
@@ -712,6 +815,7 @@ namespace Enigma_UI
                 shiftKeyPressed = false;
                 uppercaseEnabled = false; // Disable uppercase mode when Shift is released
                 shift.Background = Brushes.Transparent; // Reset UI element appearance
+                cShift.Background = Brushes.Transparent;
                 return;
             }
 
@@ -719,6 +823,7 @@ namespace Enigma_UI
             {
                 capsLockKeyPressed = false;
                 shiftlock.Background = Brushes.Transparent;
+                cShiftLock.Background = Brushes.Transparent;
                 return;
             }
           
@@ -729,6 +834,7 @@ namespace Enigma_UI
                 {
                     output.Content = output.Content.ToString().Substring(0, output.Content.ToString().Length - 1);
                     back.Background = Brushes.Transparent;
+                    cBack.Background = Brushes.Transparent;
                 }
             }
             else
@@ -867,50 +973,62 @@ namespace Enigma_UI
 
                 case Key.OemPlus:
                     equal.Background = Brushes.Transparent;
+                    cEquals.Background = Brushes.Transparent;
                     break;
 
                 case Key.OemMinus:
                     minus.Background = Brushes.Transparent;
+                    cMinus.Background = Brushes.Transparent;
                     break;
 
                 case Key.D1:
                     one.Background = Brushes.Transparent;
+                    c1.Background = Brushes.Transparent;
                     break;
 
                 case Key.D2:
                     two.Background = Brushes.Transparent;
+                    c2.Background = Brushes.Transparent;
                     break;
 
                 case Key.D3:
                     three.Background = Brushes.Transparent;
+                    c3.Background = Brushes.Transparent;
                     break;
 
                 case Key.D4:
                     four.Background = Brushes.Transparent;
+                    c4.Background = Brushes.Transparent;
                     break;
 
                 case Key.D5:
                     five.Background = Brushes.Transparent;
+                    c5.Background = Brushes.Transparent;
                     break;
 
                 case Key.D6:
                     six.Background = Brushes.Transparent;
+                    c6.Background = Brushes.Transparent;
                     break;
 
                 case Key.D7:
                     seven.Background = Brushes.Transparent;
+                    c7.Background = Brushes.Transparent;
                     break;
 
                 case Key.D8:
                     eight.Background = Brushes.Transparent;
+                    c8.Background = Brushes.Transparent;
                     break;
 
                 case Key.D9:
                     nine.Background = Brushes.Transparent;
+                    c9.Background = Brushes.Transparent;
                     break;
 
                 case Key.D0:
                     zero.Background = Brushes.Transparent;
+                    c0.Background = Brushes.Transparent;
                     break;
             }
         }
